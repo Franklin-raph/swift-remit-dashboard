@@ -120,18 +120,26 @@
     </div>
 </div>
 
-
-
-
    <div class="content-body">
       <div class="container">
          <div class="page-title">
             <div class="row align-items-center justify-content-between">
                <div class="col-xl-4">
                   <div class="page-title-content">
-                     <h3>Wallet</h3>
+                     <h3>Bank Transfer</h3>
                   </div>
                </div>
+               <ul class="nav nav-tabs">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="transfer.html">Internal Transfer</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="domestic-transfer.html">Domestic Transfer</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="international-transfer.html">International Transfer</a>
+                  </li>
+                </ul>
             </div>
          </div>
          <div class="row">
@@ -140,57 +148,35 @@
             </div>
             <div class="card-body">
                <form class="invoice-form">
-                     <div class="row justify-content-between">
-                        <div class="col-12">
-                              <div class="mb-3">
-                                 <label class="form-label d-block">Select Balance</label>
-                                 <select name="" id="" class="w-100">
-                                    <option value="">Account Balance($9000)</option>
-                                    <option value="">Overdraft Balance($0.00)</option>
-                                 </select>
-                              </div>
-                        </div>
-                        <div class="col-12">
-                              <div class="mb-3"><label class="form-label">Swift Remit Account Number</label><input
-                                    type="text" class="form-control" />
-                              </div>
-                              <div class="mb-3"><label class="form-label">Amount</label><input
-                                    type="number" class="form-control" />
-                              </div>
-                        </div>
-                        <div class="col-12">
-                              <div class="mb-3"><label class="form-label" style="display: block;" >Description</label>
-                                 <textarea rows="3" class="p-2 w-100"></textarea>
-                              </div>
-                              <div class="mb-3"><label class="form-label">Transaction Pin</label><input
+                  <div class="row justify-content-between">
+                     <div class="col-12">
+                           <div class="mb-3">
+                              <label class="form-label d-block">Select Balance</label>
+                              <select name="" id="" class="w-100">
+                                 <option value="">Account Balance($9000)</option>
+                                 <option value="">Overdraft Balance($0.00)</option>
+                              </select>
+                           </div>
+                     </div>
+                     <div class="col-12">
+                           <div class="mb-3"><label class="form-label">Swift Remit Account Number</label><input
+                                 type="text" class="form-control" />
+                           </div>
+                           <div class="mb-3"><label class="form-label">Amount</label><input
                                  type="number" class="form-control" />
                            </div>
+                     </div>
+                     <div class="col-12">
+                           <div class="mb-3"><label class="form-label" style="display: block;" >Description</label>
+                              <textarea rows="3" class="p-2 w-100"></textarea>
+                           </div>
+                           <div class="mb-3"><label class="form-label">Transaction Pin</label><input
+                              type="number" class="form-control" />
                         </div>
                      </div>
-                     <hr>
-                     <button class="btn btn-primary w-100">Send</button>
-                     <!-- <div class="row">
-                        <div class="mb-3 col-xl-6"><label class="form-label">Items</label><input
-                                 type="email" class="form-control" placeholder="Wireframe"></div>
-                        <div class=" mb-3 col-xl-3"><label class="form-label">Quantity</label><input
-                                 type="email" class="form-control" placeholder="360"></div>
-                        <div class="mb-3 col-xl-2"><label class="form-label">Price</label><input
-                                 type="email" class="form-control" placeholder="82"></div>
-                        <div class="col-1"><span><i class="ri-close-line"></i></span></div>
-                     </div> -->
-                     <!-- <div class="row">
-                        <div class="mb-3 col-xl-6"><input type="email" class="form-control"
-                                 placeholder="High-Fidelity"></div>
-                        <div class="mb-3 col-xl-3"><input type="email" class="form-control"
-                                 placeholder="220"></div>
-                        <div class="mb-3 col-xl-2"><input type="email" class="form-control"
-                                 placeholder="67"></div>
-                        <div class="col-1"><span><i class="bi bi-x"></i></span></div>
-                     </div> -->
-                     <!-- <div class="add-reset d-flex justify-content-between">
-                        <button class="btn btn-outline-primary"><span><i class="ri-close-line"></i></span>Reset</button>
-                        <button class="btn btn-primary"><span><i class="bi bi-plus"></i></span>Add Item</button>
-                     </div> -->
+                  </div>
+                  <hr>
+                  <button class="btn btn-primary w-100">Send</button>
                </form>
            </div>
          </div>
